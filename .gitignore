@@ -1,0 +1,8 @@
+# DBConfig file
+/private/dbconfig.php
+
+# Check Database Connection File
+checkdb.php
+
+# Ignore HTAccess file
+/private/_private_htaccess

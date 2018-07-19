@@ -1,0 +1,73 @@
+/*
+ * Langdon
+================================================================================ */
+@font-face {
+  font-family: 'Langdon';
+  src:url('langdon/Langdon.ttf.woff') format('woff'),
+      url('langdon/Langdon.ttf.svg#Langdon') format('svg'),
+      url('langdon/Langdon.ttf.eot'),
+      url('langdon/Langdon.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  min-height: 100%;
+  overflow: auto;
+}
+body {
+  color: #fff;
+  background:url('../img/home-min.jpg');
+  background-position: left bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  height: 700px;
+}
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top {
+  height: 100px;
+}
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#consultation {
+  padding-top: 30px;
+}
+#home-section .card-form {
+  opacity: 0.8;
+}
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+button.list-group-item.list-group-item-action {
+  background: #fff;
+  color: #000;
+}
+/* question section */
+#consultation .logo-phone {
+  font-family: 'Langdon', "Open Sans", sans-serif;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+input.form-control.form-control-lg {
+  color: #000;
+}
