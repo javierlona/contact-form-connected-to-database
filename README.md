@@ -6,7 +6,24 @@ Click for a [Live Demo.](http://www.onegreatapp.com/web-designer-contact-form)
 A contact form I used as my Google AdWords landing page. The visitors signs up and their information is stored in a database and notifies the owner via email.
 
 ## Installation
-Use the **createdb.sql** file to create your database and table. Then inside the **private** directory create a **dbconfig.php** file with your database credentials.  
+Use the **createdb.sql** file to create your database and table.
+
+```
+mysql -u [username] -p < createdb.sql
+```
+Then inside the **private** directory create a **dbconfig.php** file with your database credentials.
+
+```php
+<?php
+$host = "localhost";
+$username = "";
+$password = "";
+$dbname = "wd_form";
+
+$dsn = 'mysql:host='.$host.';dbname='.$dbname;
+$pdo = new PDO($dsn, $username, $password);
+?>
+```
 
 ## Technologies
-PHP, MySQL, Bootstrap 4 
+PHP, MySQL, Bootstrap 4
