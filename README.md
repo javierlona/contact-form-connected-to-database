@@ -1,6 +1,6 @@
 # Web Designer Contact Form Database
 ![Web Designer Contact Form](img/web-designer-contact-form-demo-img.jpg)
-Click for a [Live Demo.](http://www.onegreatapp.com/contact-form-connected-to-database)
+Click for a [Live Demo.](http://www.apps.javierlona.com/contact-form-connected-to-database)
 
 ## Description
 A contact form I used as my Google AdWords landing page. The visitors signs up and their information is stored in a database and notifies the owner via email.
@@ -18,7 +18,7 @@ Then inside the **private** directory create a **dbconfig.php** file with your d
 $host = "localhost";
 $username = "";
 $password = "";
-$dbname = "wd_form";
+$dbname = "";
 
 $dsn = 'mysql:host='.$host.';dbname='.$dbname;
 $pdo = new PDO($dsn, $username, $password);
